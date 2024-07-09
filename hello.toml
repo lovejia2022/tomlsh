@@ -1,0 +1,12 @@
+#!/usr/bin/env tomlsh
+
+# verbose = true
+
+[[cmd]]
+name = 'path'
+bind = ['/mnt', '/var']
+
+[[cmd]]
+cmd = [
+  'ls', '-F', '$path',
+]

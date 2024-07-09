@@ -1,0 +1,9 @@
+[package]
+name = "tomlsh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.9", default-features = false, features = ["derive", "help", "std", "usage", "suggestions", "cargo"] }
+serde = { version = "1.0.204", features = ["derive"] }
+toml = "0.8.14"
